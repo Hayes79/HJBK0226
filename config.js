@@ -1,4 +1,4 @@
-export const WEDDING_INVITATION_URL = "http://localhost:8000/"";
+export const WEDDING_INVITATION_URL = "https://hjbk0226.netlify.app/";
 export const KAKAOTALK_API_TOKEN = "80152d9afb50311e1dfe62ad7466fe48";
 export const KAKAOTALK_SHARE_IMAGE =
   "https://cdn.pixabay.com/photo/2014/11/13/17/04/heart-529607_960_720.jpg";
