@@ -99,36 +99,7 @@ const Share = () => {
     }
   };
 
-  return (
-    <Wrapper>
-      <Divider
-        data-aos="fade-up"
-        plain
-        style={{ marginTop: 0, marginBottom: 32 }}
-      >
-        <Title>청첩장 공유하기</Title>
-      </Divider>
-      <KakaoTalkShareButton
-        style={{ margin: 0 }}
-        icon={<MessageFilled />}
-        id="sendKakao"
-        size="large"
-        onClick={createKakaoButton}
-      >
-        카카오톡으로 공유하기
-      </KakaoTalkShareButton>
-      <CopyToClipboard text={WEDDING_INVITATION_URL}>
-        <LinkShareButton
-          style={{ margin: 0 }}
-          icon={<LinkOutlined />}
-          size="large"
-          onClick={() => message.success("청첩장 링크가 복사되었습니다.")}
-        >
-          링크로 공유하기
-        </LinkShareButton>
-      </CopyToClipboard>
-    </Wrapper>
-  );
+  
 };
 
 export default Share;
