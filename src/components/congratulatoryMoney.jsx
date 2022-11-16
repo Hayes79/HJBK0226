@@ -137,17 +137,17 @@ const CongratulatoryMoney = () => {
           </CopyToClipboard>
         </div>
         <div style={{ marginTop: 24, marginBottom: 24 }}>
-          <b>모 : {GROOM_MOTHER_NAME}</b>
-          <Divider type="vertical" />
-          <CopyToClipboard text={GROOM_MOTHER_ACCOUNT_NUMBER}>
-            <Button
-              type="text"
-              style={{ padding: 0, margin: 0 }}
-              onClick={() => message.success("계좌번호가 복사되었습니다.")}
-            >
-              {GROOM_MOTHER_ACCOUNT_NUMBER}
-            </Button>
-          </CopyToClipboard>
+   //       <b>모 : {GROOM_MOTHER_NAME}</b>
+   //       <Divider type="vertical" />
+   //       <CopyToClipboard text={GROOM_MOTHER_ACCOUNT_NUMBER}>
+   //         <Button
+   //           type="text"
+   //           style={{ padding: 0, margin: 0 }}
+   //           onClick={() => message.success("계좌번호가 복사되었습니다.")}
+   //         >
+   //           {GROOM_MOTHER_ACCOUNT_NUMBER}
+   //         </Button>
+   //       </CopyToClipboard>
         </div>
         <div>
           <b>신랑 {GROOM_NAME}</b>
