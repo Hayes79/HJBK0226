@@ -39,14 +39,14 @@ const Quote = () => {
     <Wrapper>
       <Image src={Flower} data-aos="fade-up" />
       <Content data-aos="fade-up">
-        장담하건대. 세상이 다 겨울이어도
+        때론 오래 된 친구처럼
         <br />
-        우리 사랑은 늘봄처럼 따뜻하고
+        때론 처음 만나는 사람처럼
         <br />
-        간혹, 여름처럼 뜨거울 겁니다
+        그 많은 당신을 다 사랑하고 싶습니다
         <br />
         <br />
-        - 이수동, (사랑가) -
+        - 이준호, (사랑) -
         <br />
         <br />
       </Content>
