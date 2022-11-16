@@ -148,7 +148,7 @@ const CongratulatoryMoney = () => {
    //           {GROOM_MOTHER_ACCOUNT_NUMBER}
    //         </Button>
    //       </CopyToClipboard>
-        </div>
+   //     </div>
         <div>
           <b>신랑 {GROOM_NAME}</b>
           <Divider type="vertical" />
